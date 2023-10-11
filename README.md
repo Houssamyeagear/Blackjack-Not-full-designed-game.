@@ -8,7 +8,7 @@ if answer1.lower() == "yes":
     roll1 = random.randint(1, 10)
     print(str(roll1) + " This is your first roll. Keep rolling until you reach 21.\n")
     roll2 = random.randint(1, 10)
-    print(str(roll2) + " Now you can choose to stick with this number until you see the results of the house.\n")
+    print(str(roll2) + " 2nd reroll you still cannot stick.\n")
     roll3 = roll1 + roll2 + random.randint(1, 10)
     print(str(roll3) + " Your rolls are done, and now you are forced to stick.\n")
     answer = input("Do you want to stick or continue?\n")
