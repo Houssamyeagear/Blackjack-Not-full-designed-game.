@@ -4,7 +4,7 @@ import random
 
 answer1 = input("Hello, would you like to play some blackjack?\n")
 if answer1.lower() == "yes":
-    print("Roll a die. You have to keep getting numbers until you reach 21. If you fail, you'll have one chance against the house.\n")
+    print("Roll a dice. You have to keep getting numbers until you reach 21. If you fail, you'll have one chance against the house.\n")
     roll1 = random.randint(1, 10)
     print(str(roll1) + " This is your first roll. Keep rolling until you reach 21.\n")
     roll2 = random.randint(1, 10)
